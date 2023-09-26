@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #23232e;
+    height: 8vh;
+}
+
+main {
+    background: #1b1b24;
+    background-size: cover;
+    height: 92vh;
+    overflow-y: scroll;
+    
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+ button {
+    background: transparent;
+    border: #1b1b24;
+ }
+
+.imagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 100px; 
+    margin-top: 50px;
+    max-width: 1650px;
+}
+
+.img-grande {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.img-pequena {
+    grid-column: 1;
+    grid-row: 1;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.img-pequena > div {
+    margin-bottom: 20px;
+}
+
+.preço h2 {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.preço h5 {
+    margin-left: 20px;
+}
+
+button {
+    margin-left: 20px;
+    width: 300px;
+    background: #3b3b4d;
+    height: 40px;
+    color: #fff;
+    border-radius: 20px;
+}
+.rodapé {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #23232e;
+    height: 15vh;
+}
+
+.rodapé .nav-list li {
+    margin-left: 150px;
+    margin-right: 150px;
+}
